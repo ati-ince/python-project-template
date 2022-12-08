@@ -30,3 +30,7 @@ class TestFirst(unittest.TestCase):
     def test_dosmtng1(self):
         # self.assertEqual('OK', return1, XError(msg)) 
         # raise Exception('message')
+        pass
+    
+    def test_sec(self):
+        raise RuntimeError('intentionally RISE!')

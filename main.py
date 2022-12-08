@@ -1,3 +1,7 @@
+"""
+pep8 module info
+"""
+
 from modules import Class1
 
 def main():

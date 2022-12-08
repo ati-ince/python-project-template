@@ -1,0 +1,24 @@
+{
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./unit_test",
+        "-p",
+        "test_*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true,
+
+    // also manually added pylint
+    "python.languageServer": "Default",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Enabled": false,
+    "cucumberautocomplete.skipDocStringsFormat": true,
+    "python.linting.flake8Args": [
+        // Match what black does.
+        "--max-line-length=88"
+    ],
+
+    
+}
